@@ -7,6 +7,7 @@ type Props = {
 }
 
 const foo = 'bla'
+const bar = 'bla'
 
 export default function Home({ title = 'Bino' }: Props) {
   return (
