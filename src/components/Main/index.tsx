@@ -1,6 +1,6 @@
 const Main = () => (
   <main>
-    <h1>bino</h1>
+    <h2>bino</h2>
   </main>
 )
 
