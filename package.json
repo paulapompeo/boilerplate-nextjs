@@ -9,8 +9,9 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
@@ -50,6 +51,7 @@
     "jest": "^27.3.1",
     "jest-styled-components": "^7.0.5",
     "lint-staged": "^11.2.6",
+    "plop": "^2.7.4",
     "prettier": "2.4.1",
     "typescript": "^3.9.5"
   }
